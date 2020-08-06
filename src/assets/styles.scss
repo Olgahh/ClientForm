@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+body {
+  background-color: $main-bg-color;
+  font-family: $fonts;
+}
+
+.client {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 1px 1px 2px #4d5d75;
+  background-color: #f7f7f7;
+  font-size: 1em;
+  margin: 2em auto;
+  padding: 2em;
+  width: 70%;
+}
